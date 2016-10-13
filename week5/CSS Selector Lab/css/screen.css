@@ -1,0 +1,18 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  background: #ccc;
+  font-size: 12;
+}
+
+div.index {
+  background: green;
+  color: black;
+}
+
+div.blog {
+  background: red;
+  color: yellow;
+}
