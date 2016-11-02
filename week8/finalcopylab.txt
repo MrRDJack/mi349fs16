@@ -1,0 +1,18 @@
+East Lansing Event Locator
+---------------------------------------------------------------------------
+Navigation Bar:
+Blog           Map             About
+
+Blog:
+---A timeline of event in East Lansing
+---Event Information
+---Some photoes
+
+Map:
+---API with google map
+---Event locator
+---Weather forecast for each event
+
+About:
+---My information
+---Link to my resume
