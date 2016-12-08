@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -7,45 +8,46 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-<title>Farm in Michigan on Map</title>
-<link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet" type="text/css">
+    <title>Farm in Michigan on Map</title>
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
 
- <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
-      function initialize() {
-        var mapCanvas = document.getElementById('map-canvas');
-        var mapOptions = {
-          center: new google.maps.LatLng(42.7346784,-84.4822786),
-          zoom: 16,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
+        function initialize() {
+            var mapCanvas = document.getElementById('map-canvas');
+            var mapOptions = {
+                center: new google.maps.LatLng(42.7346784, -84.4822786),
+                zoom: 16,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions)
         }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
+        google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
 
 </head>
 
 <body>
-  <header>
-    <h1>EastLansingOW</h1>
-    <h2>Go Green!! Go White!!</h2>
-  </header>
+    <header>
+        <h1>EastLansingOW</h1>
+        <h2>Go Green!! Go White!!</h2>
+    </header>
 
 
-	<div id="map-canvas"></div>
-  <footer>
-      <a href="about.html">
-          <p>-about-</p>
-      </a>
-      <a href="index.html">
-          <p>-to home-</p>
-      </a>
-      <a href="#top">
-          <p>-to top-</p>
-      </a>
-  </footer>
+    <div id="map-canvas"></div>
+    <footer>
+        <a href="about.html">
+            <p>-about-</p>
+        </a>
+        <a href="index.html">
+            <p>-to home-</p>
+        </a>
+        <a href="#top">
+            <p>-to top-</p>
+        </a>
+    </footer>
 </body>
+
 </html>
